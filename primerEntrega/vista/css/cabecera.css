@@ -1,0 +1,16 @@
+#sidebarMenu{
+    min-height: 80vh;
+    background: linear-gradient(170deg, rgba(2,0,36,1) 0%, rgba(6,5,83,1) 60%, rgba(0,212,255,1) 95%);
+  }
+  .navbar{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,5,83,1) 85%, rgba(0,212,255,1) 95%);
+  }
+  .footer{
+    background: linear-gradient(276deg, rgba(2,0,36,1) 0%, rgba(6,5,83,1) 50%, rgba(0,212,255,1) 95%);
+  }
+  .footer h5,a{
+    color:black
+  }
+  .sidebar h5{
+    color:rgba(0,212,255,1);
+  }

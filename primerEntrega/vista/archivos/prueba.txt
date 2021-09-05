@@ -1,0 +1,8 @@
+Visión general
+El mebibyte está estrechamente relacionado con el megabyte (MB). Mebibyte y megabyte no son sinónimos pero suelen usarse incorrectamente como si lo fueran, puesto que tienen valores diferentes:
+
+1 mebibyte = 1 048 576 B = 220 bytes.
+1 megabyte = 1 000 000 B = 106 bytes.
+Los dos números están relativamente cercanos, pero el confundir uno con otro ha llevado ocasionalmente a problemas aún discutidos por la comunidad informática. (ver prefijo binario y prefijos del SI para más información)
+
+Es frecuente escribirlo incorrectamente como Mibibyte. Este fallo está presumiblemente derivado de la inclusión de la letra "i" en la abreviatura o confusión sobre cómo se forman los prefijos (por ejemplo "kibi" y "gibi"). La "i" en realidad pertenece al final del prefijo. tebi- y pebi- se abrevian incorrectamente de forma similar como Ti- y Pi-, pero no es habitual verlos, ya que estos tamaños de almacenamiento (y los correspondientes términos) no se utilizan aún comúnmente.
