@@ -1,0 +1,9 @@
+form{
+    background-color: whitesmoke;
+    border:solid 1px lightgrey; 
+    padding: 15px;
+    width:fit-content;
+}
+input{
+    margin-bottom: 10px;
+}
