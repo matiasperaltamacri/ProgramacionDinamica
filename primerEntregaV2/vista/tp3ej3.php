@@ -9,7 +9,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <label for="titulo" class="form-label"><strong>Titulo</strong></label>
+                    <label for="titulo" class="form-label"><strong>Título</strong></label>
                 </div>
                 <div class="col">
                     <label for="actores" class="form-label"><strong>Actores</strong></label>
@@ -30,7 +30,7 @@
                     <label for="director" class="form-label"><strong>Director</strong></label>
                 </div>
                 <div class="col">
-                    <label for="guion" class="form-label"><strong>Guion</strong></label>
+                    <label for="guion" class="form-label"><strong>Guión</strong></label>
                 </div>
             </div>
             <div class="row">
@@ -45,7 +45,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <label for="produccion" class="form-label"><strong>Produccion</strong></label>
+                    <label for="produccion" class="form-label"><strong>Producción</strong></label>
                 </div>
                 <div class="col">
                     <label for="año" class="form-label"><strong>Año</strong></label>
@@ -53,11 +53,11 @@
             </div>
             <div class="row">
                 <div class="col-6">
-                    <input type="text" id="produccion" name="produccion" class="form-control" required>
+                    <input type="text" id="produccion" name="produccion" class="form-control" placeholder="Producción" required>
                     <div class="invalid-feedback" id="produccion-text">Ingrese productor de la pelicula</div>
                 </div>
                 <div class="col-3">
-                    <input type="text" id="año" name="año" class="form-control" maxlength="4" pattern="[0-9]{4}" required>
+                    <input type="text" id="año" name="año" class="form-control" maxlength="4" pattern="[0-9]{4}" placeholder="Año" required>
                     <div class="invalid-feedback" id="año-text">Ingrese año</div>
                 </div>
                 
@@ -67,39 +67,39 @@
                     <label for="nacionalidad" class="form-label"><strong>Nacionalidad</strong></label>
                 </div>
                 <div class="col">
-                    <label for="genero" class="form-label"><strong>Genero</strong></label>
+                    <label for="genero" class="form-label"><strong>Género</strong></label>
                 </div>
             </div>
             <div class="row">
                 <div class="col-6">
-                    <input type="text" name="nacionalidad" id="nacionalidad" class="form-control" required>
+                    <input type="text" name="nacionalidad" id="nacionalidad" class="form-control" placeholder="Nacionalidad" required>
                     <div class="invalid-feedback" id="nacionalidad-text">Ingrese nacionalidad</div>
                 </div>
                 <div class="col-3">
                     <select name="genero" class="form-select" required>
                         <option selected disabled></option>
                         <option value="comedia">Comedia</option>
-                        <option value="accion">Accion</option>
+                        <option value="accion">Acción</option>
                         <option value="drama">Drama</option>
                         <option value="terror">Terror</option>
-                        <option value="ficcion">Ciencia Ficcion</option>
+                        <option value="ficcion">Ciencia Ficción</option>
                     </select>
                     <div class="invalid-feedback" id="genero-text">Seleccione el género</div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-4">
-                    <label for="duracion" class="form-label"><strong>Duracion</strong></label>
+                    <label for="duracion" class="form-label"><strong>Duración</strong></label>
                 </div>
                 <div class="col">
-                    <label for="edad" class="form-check-label"><strong>Restriccion de edad</strong></label>
+                    <label for="edad" class="form-check-label"><strong>Restricción de edad</strong></label>
                 </div>
             </div>
             <div class="row">
                 <div class="col-4">
-                    <input type="text" name="duracion" id="duracion" class="form-control" maxlength="3" pattern="[0-9]{2,3}" required>
+                    <input type="text" name="duracion" id="duracion" class="form-control" maxlength="3" pattern="[0-9]{2,3}" placeholder="Duración" required>
                     <small>(minutos)</small>
-                    <div class="invalid-feedback" id="duracion-text">Ingrese duracion</div>
+                    <div class="invalid-feedback" id="duracion-text">Ingrese duración</div>
                 </div>
                 <div class="col" >
                     <input class="form-check-input" type="radio" name="edad" value="Todo publico" id="edad" required>
