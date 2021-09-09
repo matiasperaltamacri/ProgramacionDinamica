@@ -108,6 +108,7 @@
                     <label for="imagen" class="form-label"><strong>Cargar Imagen</strong></label> 
                 <div class="col">
                     <input type="file" name="imagen" id="imagen" required>
+                    <small class="text-muted">Formatos permitidos: .jpeg y .png</small>
                     <div class="invalid-feedback">Seleccione una imagen de su equipo</div>
                 </div>
             </div>
