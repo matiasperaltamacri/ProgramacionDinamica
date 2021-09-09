@@ -21,6 +21,7 @@ if ($arrayRespuesta["respCarga"] == "") {
         <h2 class="card-title" style="color:blue">La pelicula introducida es</h2>
         <p class="card-text" style="color:#108800"><?php echo $resp ?></p>
     </div>
+    <a href='../tp3ej3.php'><button type='button' class='btn btn-info'>Regresar</button></a>
 </div>
 <?php
 include_once "../estructura/pieAccion.php";
