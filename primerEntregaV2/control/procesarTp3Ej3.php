@@ -1,5 +1,5 @@
 <?php
-class control_ej3
+class procesarTp3Ej3
 {
     public function mostrar($datos)
     {
