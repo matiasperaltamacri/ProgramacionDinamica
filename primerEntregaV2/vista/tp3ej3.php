@@ -18,9 +18,11 @@
             <div class="row">
                 <div class="col">
                     <input type="text" id="titulo" name="titulo" class="form-control" placeholder="Titulo" required>
+                    <div class="invalid-feedback" id="titulo-text">Debe ingresar un título válido</div>
                 </div>
                 <div class="col">
                     <input type="text" id="actores" name="actores" class="form-control" placeholder="Actores" required>
+                    <div class="invalid-feedback" id="actores-text">Campo de actores incorrecto</div>
                 </div>
             </div>
             <div class="row">
@@ -34,9 +36,11 @@
             <div class="row">
                 <div class="col">
                     <input type="text" id="director" name="director" class="form-control" placeholder="Director" required>
+                    <div class="invalid-feedback" id="director-text">Ingrese el director/a de la pelicula</div>
                 </div>
                 <div class="col">
                     <input type="text" id="guion" name="guion" class="form-control" placeholder="Guion" required>
+                    <div class="invalid-feedback" id="guion-text">Ingrese al guionista de la pelicula</div>
                 </div>
             </div>
             <div class="row">
@@ -50,6 +54,7 @@
             <div class="row">
                 <div class="col-6">
                     <input type="text" id="produccion" name="produccion" class="form-control" required>
+                    <div class="invalid-feedback" id="produccion-text">Ingrese productor de la pelicula</div>
                 </div>
                 <div class="col-3">
                     <input type="text" id="año" name="año" class="form-control" maxlength="4" pattern="[0-9]{4}" required>
@@ -68,6 +73,7 @@
             <div class="row">
                 <div class="col-6">
                     <input type="text" name="nacionalidad" id="nacionalidad" class="form-control" required>
+                    <div class="invalid-feedback" id="nacionalidad-text">Ingrese nacionalidad</div>
                 </div>
                 <div class="col-3">
                     <select name="genero" class="form-select" required>
@@ -78,6 +84,7 @@
                         <option value="terror">Terror</option>
                         <option value="ficcion">Ciencia Ficcion</option>
                     </select>
+                    <div class="invalid-feedback" id="genero-text">Seleccione el género</div>
                 </div>
             </div>
             <div class="row">
@@ -101,6 +108,7 @@
                     <small>Mayores de 7</small>
                     <input class="form-check-input" type="radio" name="edad" value="Mayores de 18" id="edad">
                     <small>Mayores de 18</small>
+                    <div class="invalid-feedback" id="restriccion-text">Debe seleccionar la restricción de edad</div>
                 </div>
             </div>
             <div class="row">
