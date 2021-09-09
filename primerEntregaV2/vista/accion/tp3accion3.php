@@ -1,11 +1,11 @@
 <?php
 $titulo = "Ejercicio 3 TP3";
 include_once "../estructura/cabeceraAccion.php";
-include_once "../../control/control-tp3ej3.php";
+include_once "../../control/procesarTp3Ej3.php";
 include_once "../../configuracion.php";
 
 $datos = data_submitted();
-$obj = new control_ej3();
+$obj = new procesarTp3Ej3();
 $resp = $obj->mostrar($datos);
 $arrayRespuesta = $obj->cargarImagen($datos);
 
