@@ -9,7 +9,7 @@ que el tipo esperado sea <strong>txt (texto plano)</strong>, si es correcto debe
 contenido en un textarea.
 </p>
     <form method="post" action="accion/tp3accion2.php" enctype="multipart/form-data">
-    <div class="row">
+    <div class="row d-flex justify-content-center">
             <div class="col-sm-4">
             <div class="form-group has-feedback">
                 <label for="texto" class="control-label">Archivo:</label>
@@ -24,7 +24,7 @@ contenido en un textarea.
             </div>
         </div>
 
-    <div class="row">
+    <div class="row d-flex justify-content-center mt-3">
             <div class="col-md-1 botones">
                 <input id="btn_eje1-sub" name="btn_eje1-sub" class="form-control btn-block btn-info" type="submit" value="Enviar">
             </div>
