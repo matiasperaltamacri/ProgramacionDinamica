@@ -12,8 +12,9 @@ $colDir = $obj->obtenerArchivos();
 if ($respuesta == "") {
     echo "<div class='alert alert-success' role='alert'>Archivo subido exitosamente.</div>";
     $enlace = $obj->abrirArchivo($colDir);
+    echo $enlace;
     if ($enlace != "") {
-        echo "<p><a href=" . $enlace . ">Archivo</a></p>";
+        echo "<p><a href='$enlace'>Archivo</a></p>";
     }
 
 } else {
