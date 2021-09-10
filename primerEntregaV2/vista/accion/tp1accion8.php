@@ -1,18 +1,11 @@
 <?php
     $titulo="EJERCICIO 8 TP1";
     include_once("../estructura/cabeceraAccion.php");
+    include_once("../../control/control-Tp1Ej8.php");
     if ($_GET){
-        $edad=$_GET['edad'];
-        $estudia=$_GET['estudiante'];
-        if ($estudia=="si" || $edad<12){
-            $importe=160;
-            if ($edad>=12){
-                $importe+=20;
-            }
-        }else{
-            $importe=300;
-        }
-        echo "Tarifa del cliente: $$importe<br/>";
+        $obj=new control_tp1ej8;
+        $texto=$obj->mostrar($_GET);
+        echo $texto;
     }else{
         echo "No se recibieron datos.";
     }

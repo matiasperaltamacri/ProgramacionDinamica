@@ -1,18 +1,11 @@
 <?php
     $titulo="EJERCICIO 1 TP1";
     include_once("../estructura/cabeceraAccion.php");
+    include_once("../../control/control-Tp1Ej1.php");
     if ($_POST){
-        $numero = $_POST['numero'] ;
-        echo "N&uacute;mero: $numero <br />";
-        if ($numero==0){
-            echo "El numero es nulo<br/>";
-        }
-        else if($numero>0){
-            echo "El numero es positivo<br/>";
-        }
-        else if ($numero<0){
-            echo "El numero es negativo<br/>";
-        }
+        $obj=new control_tp1ej1;
+        $texto=$obj->verNum($_POST);
+        echo $texto;
     }
     else{
         echo "No se recibieron datos<br />";

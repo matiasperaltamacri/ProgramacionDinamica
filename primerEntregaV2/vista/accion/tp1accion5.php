@@ -1,20 +1,11 @@
 <?php
     $titulo="EJERCICIO 5 TP1";
     include_once("../estructura/cabeceraAccion.php");
+    include_once("../../control/control-Tp1Ej5.php");
     if($_GET){
-        $edad=$_GET['edad'];
-        $nombre=$_GET['nombre'];
-        $apellido=$_GET['apellido'];        
-        $direccion=$_GET['direccion'];
-        $estudios=$_GET['estudios'];
-        $sexo=$_GET['sexo'];
-        if ($edad<18){
-            
-            echo "Hola, yo soy $nombre $apellido tengo $edad años y vivo en $direccion. Soy $sexo y mi nivel de estudios es: $estudios.<br/>";
-        }
-        else{
-            echo "Hola, yo soy $nombre $apellido, soy mayor de edad y vivo en $direccion. Soy $sexo y mi nivel de estudios es: $estudios.<br/>";
-        }
+        $obj=new control_tp1ej5;
+        $texto=$obj->mostrar($_GET);
+        echo $texto;
     }
     else{
         echo "No se recibieron datos.";

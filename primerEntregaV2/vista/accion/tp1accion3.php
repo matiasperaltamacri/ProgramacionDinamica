@@ -1,12 +1,11 @@
 <?php
     $titulo="EJERCICIO 3 TP1";
     include_once("../estructura/cabeceraAccion.php");
+    include_once("../../control/control-TP1Ej3.php");
     if($_POST){
-        $nombre=$_POST['nombre'];
-        $apellido=$_POST['apellido'];
-        $edad=$_POST['edad'];
-        $direccion=$_POST['direccion'];
-        echo "Hola, yo soy $nombre $apellido tengo $edad años y vivo en $direccion.<br/>";
+        $obj=new control_tp1ej3;
+        $texto=$obj->mostrar($_POST);
+        echo $texto;
     }
     else{
         echo "No se recibieron datos.";

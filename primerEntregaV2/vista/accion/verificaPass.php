@@ -1,27 +1,11 @@
 <?php
     $titulo="EJERCICIO 3 TP2";
     include_once("../estructura/cabeceraAccion.php");
-	$arreglo=[['usuario'=>'lupino','pass'=>'pieFiesta12'],
-            ['usuario'=>'bilbo','pass'=>'01ring66'],
-            ['usuario'=>'harry','pass'=>'wand9988'],
-            ['usuario'=>'poppins','pass'=>'paraguas357']];
+	include_once("../../control/control-Tp2Ej3.php");
     if($_POST){
-        $usuario=($_POST['usuario']);
-        $pass=$_POST['password'];
-        $found=false;
-        $i=0;
-        do{
-            if ($usuario==($arreglo[$i]['usuario'])){
-                if ($pass==($arreglo[$i]['pass'])){
-                    echo "Bienvenido $usuario<br>";
-                    $found=true;
-                }
-            }
-            $i++;
-        }while($i<count($arreglo)&&(!$found));
-        if (!$found){
-            echo "ERROR! Usuario/contraseña incorrecto<br>";
-        }
+        $obj=new control_tp2ej3;
+        $texto=$obj->mostrar($_POST);
+        echo $texto;
     }else{
         echo"No se recibieron datos";
     }
