@@ -1,5 +1,5 @@
 <?php
-$titulo = "Ejercicio 3 TP3";
+$titulo = "EJERCICIO 3 TP3";
 include_once "../estructura/cabeceraAccion.php";
 include_once "../../control/procesarTp3Ej3.php";
 include_once "../../configuracion.php";

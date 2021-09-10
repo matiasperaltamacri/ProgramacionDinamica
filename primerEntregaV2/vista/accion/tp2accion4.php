@@ -1,5 +1,5 @@
 <?php
-    $titulo="Ejercicio 4 TP2";
+    $titulo="EJERCICIO 4 TP2";
     include_once("../estructura/cabeceraAccion.php");
     include_once("../../control/control-tp2ej4.php");
     include_once("../../configuracion.php");
