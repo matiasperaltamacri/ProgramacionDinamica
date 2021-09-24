@@ -1,0 +1,13 @@
+table{
+    margin:auto;
+    max-width: 600px;
+}
+#elemento{
+    font-weight: bold;
+    color:#5D00FF ;
+}
+table tr td{
+    border:1px solid black;
+    margin: 1px;
+    padding:3px;
+}
